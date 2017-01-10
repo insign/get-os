@@ -1,0 +1,35 @@
+{
+  "name"             : "insign/getOS",
+  "description"      : "Simply create a consistently way to find out what operating system is the php running.",
+  "minimum-stability": "stable",
+  "license"          : "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE",
+  "type"             : "project",
+  "authors"          : [
+    {
+      "name" : "Hélio Oliveira",
+      "email": "insign@gmail.com"
+    },
+    {
+      "name": "rdcapasso",
+      "site": "http://php.net/manual/en/reserved.constants.php#113172"
+    }
+  ],
+  "keywords"         : [
+    "php os",
+    "PHP_OS",
+    "php_uname",
+    "get operating system"
+  ],
+  "require"          : {
+    "php": ">=5.3",
+  },
+  "autoload"         : {
+    "classmap": [
+      "/"
+    ],
+  },
+  "support"          : {
+    "issues": "https://github.com/insign/getOS/issues?state=open",
+    "source": "https://github.com/insign/getOS"
+  }
+}
