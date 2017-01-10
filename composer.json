@@ -1,5 +1,5 @@
 {
-  "name"             : "insign/getOS",
+  "name"             : "insign/get-os",
   "description"      : "Simply create a consistently way to find out what operating system is the php running.",
   "minimum-stability": "stable",
   "license"          : "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE",
