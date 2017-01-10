@@ -25,8 +25,11 @@
   },
   "autoload"         : {
     "classmap": [
-      "/"
-    ]
+      "src/"
+    ],
+    "psr-4"   : {
+      "insign\\getOS\\": "src/"
+    }
   },
   "support"          : {
     "issues": "https://github.com/insign/getOS/issues?state=open",

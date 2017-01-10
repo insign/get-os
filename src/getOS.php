@@ -1,5 +1,7 @@
 <?php
 
+namespace insign;
+
 /**
  * Created by PhpStorm.
  * User: helio
