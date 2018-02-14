@@ -2,7 +2,7 @@
   "name"             : "insign/get-os",
   "description"      : "Only creates a simple and consistent way to find out what operating system is the current is php running.",
   "minimum-stability": "stable",
-  "license"          : "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE",
+  "license"          : "WTFPL",
   "type"             : "project",
   "authors"          : [
     {
@@ -27,7 +27,7 @@
     "classmap": [
       "src/"
     ],
-    "psr-4"   : {
+    "psr-4"   : {WTFPL
       "insign\\getOS\\": "src/"
     }
   },
