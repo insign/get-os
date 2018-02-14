@@ -27,7 +27,7 @@
     "classmap": [
       "src/"
     ],
-    "psr-4"   : {WTFPL
+    "psr-4"   : {
       "insign\\getOS\\": "src/"
     }
   },
