@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":287:{a:2:{s:7:"defects";a:1:{s:70:"insign\getOSTest\DefaultPlatformTest::throwExceptionOnExistsMethodCall";i:4;}s:5:"times";a:2:{s:59:"insign\getOS\tests\LinuxPlatformTest::existsOnLinuxPlatform";d:0.008;s:70:"insign\getOSTest\DefaultPlatformTest::throwExceptionOnExistsMethodCall";d:0.002;}}}
