@@ -2,6 +2,9 @@
 
 namespace insign;
 
+use insign\getOS\Plaftorm\DefaultPlatform;
+use insign\getOS\Plaftorm\LinuxPlatform;
+
 /**
  * Created by PhpStorm.
  * User: helio
@@ -26,9 +29,9 @@ class getOS
          case stristr(PHP_OS, 'WIN'):
             return self::WIN;
          case stristr(PHP_OS, 'LINUX'):
-            return self::LINUX;
+            return new LinuxPlatform();
          default :
-            return self::UNKNOWN;
+            return new DefaultPlatform();
       }
    }
 }

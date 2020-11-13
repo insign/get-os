@@ -7,8 +7,8 @@ Only creates a simple and consistent way to find out what operating system is th
 ```php
 // Unknown = 1
 // Windows = 2
-// Linux = 3
+// LinuxPlatform = 3
 // Mac = 4
 
-echo getOS::ofServer(); // Return a integer
+echo getOS::ofServer()->exists(); // Return a boolean or throw exception
 ```
